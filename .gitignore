@@ -1,2 +1,3 @@
+*.tmproj
 .rake_test_cache
 
