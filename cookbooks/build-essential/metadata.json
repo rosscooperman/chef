@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "groupings": {
+  },
+  "recommendations": {
+  },
+  "platforms": {
+  },
+  "license": "Apache 2.0",
+  "recipes": {
+  },
+  "suggestions": {
+  },
+  "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+  "conflicting": {
+  },
+  "attributes": {
+  },
+  "description": "Installs/Configures build-essential",
+  "providing": {
+  },
+  "dependencies": {
+  },
+  "maintainer": "Ross Cooperman",
+  "name": "build-essential",
+  "replacing": {
+  },
+  "maintainer_email": "cooperman@gmail.com"
+}
