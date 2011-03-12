@@ -17,12 +17,5 @@
 # limitations under the License.
 #
 
-package "libxml2-dev" do
-  package_name 'libxml2-dev'
-  action :install
-end
-
-package "libxslt-dev" do
-  package_name "libxslt1-dev"
-  action :install
-end
+package "libxml2-dev"
+package "libxslt1-dev"
