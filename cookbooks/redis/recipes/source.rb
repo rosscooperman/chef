@@ -99,7 +99,7 @@ end
 
 template "/etc/logrotate.d/redis" do
   source "redis.logrotate.erb"
-  mode 06400
+  mode 0644
   backup false
 end
 
