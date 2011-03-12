@@ -97,7 +97,13 @@ template "/etc/init.d/redis" do
   backup false
 end
 
-[File.join(node[:redis][:datadir], node[:redis][:appendfilename]), 
+template "/etc/logrotate.d/redis" do
+  source "redis.logrotate.erb"
+  mode 06400
+  backup false
+end
+
+[File.join(node[:redis][:datadir], node[:redis][:appendfilename]),
  File.join(node[:redis][:datadir], node[:redis][:dbfilename])].each do |data_file|
   file data_file do
     owner "redis"
