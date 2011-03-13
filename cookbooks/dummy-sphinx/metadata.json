@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "groupings": {
+  },
+  "recommendations": {
+  },
+  "platforms": {
+  },
+  "license": "Apache 2.0",
+  "recipes": {
+  },
+  "suggestions": {
+  },
+  "long_description": "",
+  "conflicting": {
+  },
+  "attributes": {
+  },
+  "description": "Installs/Configures a dummy binary for Sphinx (to prevent missing binary warnings)",
+  "providing": {
+  },
+  "dependencies": {
+  },
+  "maintainer": "Ross Cooperman",
+  "name": "dummy-sphinx",
+  "replacing": {
+  },
+  "maintainer_email": "cooperman@gmail.com"
+}

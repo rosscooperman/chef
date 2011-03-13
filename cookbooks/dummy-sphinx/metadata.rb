@@ -1,0 +1,5 @@
+maintainer       "Ross Cooperman"
+maintainer_email "cooperman@gmail.com"
+license          "Apache 2.0"
+description      "Installs/Configures a dummy binary for Sphinx (to prevent missing binary warnings)"
+version          "0.0.1"
