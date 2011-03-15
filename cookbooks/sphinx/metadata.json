@@ -1,0 +1,97 @@
+{
+  "version": "0.0.1",
+  "groupings": {
+  },
+  "recommendations": {
+  },
+  "platforms": {
+    "debian": [
+
+    ],
+    "ubuntu": [
+
+    ]
+  },
+  "license": "Apache 2.0",
+  "recipes": {
+    "sphinx::source": "Installs Sphinx from source and adds init script"
+  },
+  "suggestions": {
+  },
+  "long_description": "",
+  "conflicting": {
+  },
+  "attributes": {
+    "sphinx/checksum": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "default": "8c739b96d756a50972c27c7004488b55d7458015",
+      "type": "string",
+      "recipes": [
+
+      ],
+      "display_name": "Sphinx source file checksum",
+      "description": "Will make sure the source file is the real deal"
+    },
+    "sphinx/source": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "type": "string",
+      "recipes": [
+
+      ],
+      "display_name": "Sphinx source file",
+      "description": "Downloaded location for Sphinx"
+    },
+    "sphinx/dir": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "default": "/opt/sphinx",
+      "type": "string",
+      "recipes": [
+
+      ],
+      "display_name": "Sphinx installation path",
+      "description": "Sphinx will be installed here"
+    },
+    "sphinx/version": {
+      "required": "optional",
+      "calculated": false,
+      "choice": [
+
+      ],
+      "default": "0.9.9",
+      "type": "string",
+      "recipes": [
+
+      ],
+      "display_name": "Sphinx version",
+      "description": "Which Sphinx version will be installed"
+    }
+  },
+  "description": "Installs/Configures the Sphinx full-text search engine",
+  "providing": {
+  },
+  "dependencies": {
+    "mysql-dev": [
+
+    ],
+    "build-essential": [
+
+    ]
+  },
+  "maintainer": "Ross Cooperman",
+  "name": "sphinx",
+  "replacing": {
+  },
+  "maintainer_email": "cooperman@gmail.com"
+}
