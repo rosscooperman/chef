@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "groupings": {
+  },
+  "recommendations": {
+  },
+  "platforms": {
+  },
+  "license": "Apache 2.0",
+  "recipes": {
+  },
+  "suggestions": {
+  },
+  "long_description": "",
+  "conflicting": {
+  },
+  "attributes": {
+  },
+  "description": "Installs/Configures the Bundler Ruby gem",
+  "providing": {
+  },
+  "dependencies": {
+  },
+  "maintainer": "Ross Cooperman",
+  "name": "bundler",
+  "replacing": {
+  },
+  "maintainer_email": "cooperman@gmail.com"
+}

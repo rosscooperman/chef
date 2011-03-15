@@ -1,0 +1,5 @@
+maintainer       "Ross Cooperman"
+maintainer_email "cooperman@gmail.com"
+license          "Apache 2.0"
+description      "Installs/Configures the Bundler Ruby gem"
+version          "0.0.1"
