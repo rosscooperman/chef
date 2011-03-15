@@ -22,7 +22,7 @@
   "dependencies": {
   },
   "maintainer": "Ross Cooperman",
-  "name": "build-essential",
+  "name": "unzip",
   "replacing": {
   },
   "maintainer_email": "cooperman@gmail.com"
