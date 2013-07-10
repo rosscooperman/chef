@@ -1,3 +1,2 @@
-*.tmproj
-.rake_test_cache
-
+/.rake_test_cache
+/.ruby-gemset
