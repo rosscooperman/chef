@@ -1,1 +1,0 @@
-/Users/ross/.chef/knife.rb
